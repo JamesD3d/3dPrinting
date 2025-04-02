@@ -1,0 +1,60 @@
+baseURL = "https://example.com/"
+title = "3D Printing Workshop"
+theme = "PaperMod"
+
+[params]
+  ShowBreadCrumbs = true
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
+  defaultTheme = "auto"
+  disableThemeToggle = false
+
+[menu]
+  [[menu.main]]
+    name = "Hardware"
+    url = "/hardware/"
+    weight = 1
+  [[menu.main]]
+    name = "Fundamentals Printing Modeling"
+    url = "/fundamentals-printing-modeling/"
+    weight = 2
+  [[menu.main]]
+    name = "Material"
+    url = "/material/"
+    weight = 3
+  [[menu.main]]
+    name = "Preparation Slicers"
+    url = "/preparation-slicers/"
+    weight = 4
+  [[menu.main]]
+    name = "Modeling Software"
+    url = "/modeling-software/"
+    weight = 5
+  [[menu.main]]
+    name = "3D Repos Resources"
+    url = "/3d-repos-resources/"
+    weight = 6
+  [[menu.main]]
+    name = "Classroom Lab Recommendations"
+    url = "/classroom-lab-recommendations/"
+    weight = 7
+  [[menu.main]]
+    name = "D James Recommendations"
+    url = "/d-james-recommendations/"
+    weight = 8
+  [[menu.main]]
+    name = "Sample Lesson Plans"
+    url = "/sample-lesson-plans/"
+    weight = 9
+  [[menu.main]]
+    name = "Troubleshooting"
+    url = "/troubleshooting/"
+    weight = 10
+  [[menu.main]]
+    name = "Useful Resources"
+    url = "/useful-resources/"
+    weight = 11
+  [[menu.main]]
+    name = "Advanced Tips Modeling Recommen"
+    url = "/advanced-tips-modeling-recommen/"
+    weight = 12
